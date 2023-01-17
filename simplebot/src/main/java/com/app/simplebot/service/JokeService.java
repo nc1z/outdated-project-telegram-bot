@@ -14,6 +14,6 @@ public class JokeService {
             throw new Exception("No joke found");
         }
 
-        return joke.getSetup() + "\\n" + joke.getPunchline();
+        return joke.getSetup() + System.lineSeparator() + joke.getPunchline();
     }
 }
