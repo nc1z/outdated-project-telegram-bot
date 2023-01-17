@@ -7,12 +7,12 @@
 <br />
 <div align="center">
 
-![Simple Bot Doge](https://user-images.githubusercontent.com/111836326/212457566-82386930-a7b8-4db2-b451-067e36ca49e5.jpg)
+![Simple Bot v3](https://user-images.githubusercontent.com/111836326/212888314-ffb61f50-61d6-4f53-93e1-1d733024c78f.png)
 
-<h2 align="center">Simple Bot V1.0</h2>
+<h2 align="center">Simple Bot V3.0</h2>
 
   <p align="center">
-    Java telegram bot, dockerized & deployed on Render
+    Just a simple Java telegram bot, dockerized & deployed on Render
     <br />
     <a href="https://github.com/nc1z/simple-bot-telegram"><strong>Explore the docs »</strong></a>
     <br />
@@ -31,16 +31,28 @@
 
 ## About The Project
 
-A simple telegram bot project that users can interact with. Currently in development.
+A simple telegram bot project that users can interact with to get quotes and jokes! Currently in development.
+
+<!-- RELEASE -->
+
+## Release & Updates
+
+- V3.0 - Bot is now able to respond with jokes or quotes.
+- V2.0 - Bot is live and able to respond with basic greetings & date.
+- V1.0 - Testing Phase. Undeployed.
 
 <!-- BOT COMMANDS -->
 
-## Commands
+## Example Commands (UPDATED: V3.0)
+
+Simple bot uses keywords to detect and provde a response accordingly. Some examples below:
 
 ```
-/bot
-/bot hello
-/bot what time is it?
+Prefixed with /bot:
+- hello
+- what day is it?
+- tell me a joke
+- give me a quote
 ```
 
 <!-- USAGE -->
@@ -85,5 +97,7 @@ Project Link: https://github.com/nc1z/simple-bot-telegram
 ## Acknowledgments
 
 - https://github.com/rubenlagus/TelegramBots
+- https://zenquotes.io/
+- https://github.com/15Dkatz/official_joke_api
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
